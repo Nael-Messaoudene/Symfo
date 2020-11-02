@@ -11,9 +11,9 @@ class LuckyController
      /**
       * @Route("/number")php
       */
-    public function number(): Response
+    public function toto(): Response
     {
-        $number = random_int(0, 100);
+        $number = random_int(0, 1000);
 
         return new Response(
             '<html><body>Lucky number: '.$number.'</body></html>'
