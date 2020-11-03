@@ -31,3 +31,52 @@ route : /
 
 - liste de toute les categories
 --> nous redirige vers la page category.php au clique
+
+
+# Entity
+
+## Page
+- id
+- name
+- slug
+- content
+- title
+- description
+- isPublic
+- userId
+
+# ItemCategory
+
+- id
+- pageId
+- categoryId
+- index
+
+# ItemPage
+
+- id
+- pageId
+- mediaId
+
+ 
+# Category
+
+- id
+- name
+- slug
+- icon
+
+# Media
+
+- id
+- path
+- name
+
+# Comment
+- id
+- userId
+- body
+- pageId
+- isModerated
+
+
